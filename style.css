@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  .container {
+    position: relative;
+    height: 400px;
+    background: linear-gradient( #ffb004 30%, #d31c1c 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .containertwo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .visionphoto{
+    position: absolute;
+    mix-blend-mode: multiply;
+    width: 40%;
+   margin-left: 30%;
+    height: 100%;
+  }
+  
+  .text{
+    mix-blend-mode: normal;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: 200px;
+    max-width: 600px;
+  }
+  
+  .text h1 {
+    top: 100px;
+    font-size: 30px;
+    width: 400px;
+    margin-left: 100px;
+    z-index: 1;
+  }
+
+.search{
+    margin-left: 50px;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+}
+    .search:hover{
+        width: 280px;
+        height: 32px;
+    }
+.subscribe{
+    background-color: #f8af10;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+
+}
+.subscribe:hover{
+    width: 150px;
+    height: 32px;
+}
+
+.yellow{
+    height: 1250px;
+    width: 100%;
+    background-color: #f8af10;
+}
+
+    .yellow h1{
+        margin-left: 140px;
+    }
+    .yellow p{
+        font-size: 20px;
+        width: 300px;
+        margin-left: 140px;
+    }
+
+    .picture{
+        width: 28%;
+        height: 17%;
+        margin-left: 50%;
+        margin-top: -220px;
+    }
+  
+      .cards {
+        margin-top: -10px;
+        display: flex;
+        flex-direction: row;
+      }
+      .card {
+        width: 45px;
+        flex: 1;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+        position: relative;
+      }
+      .h2 {
+        font-size: 25px;
+      }
+      .card p {
+        margin: 10px;
+        font-size: 17px;
+      }
+      .card:nth-child(1) {
+        background-color: #e9402d;
+      }
+      .card:nth-child(2) {
+        background-color: #f8af10;
+      }
+      .card:nth-child(3) {
+        background-color: #383838;
+      }
+      .card:nth-child(4) {
+        background-color: #87898b;
+      }
+  
+   .blacksquear{
+    background-color: #383838;
+    width: 1012px;
+    height: 400px;
+    position: relative;
+    left: 337px;
+  }
+
+  .photo{
+    margin-right: 10px;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .end{
+    display: grid;
+    grid-template-rows: min-content;
+
+  }
+.end h2{
+font-family: 'Times New Roman', Times, serif;
+margin-left: 340px;
+
+
+}
+  .end p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 340px;
+    
+  }
+
+  .photo2{
+    width: 300px;
+    height: 200px;
+    margin-left: 650px;
+    margin-top: -240px;
+  }
+
+.lines{
+  width: 300px;
+  height: 200px;
+  margin-left: 970px;
+  margin-top: -240px;
+}
+
+
+  
+
+  
